@@ -17,6 +17,16 @@ It's free, open source, and maintained by practitioners for practitioners. Your 
 - **Skills** — runnable workflows like [account audit](skills/account-audit.md), [campaign review](skills/campaign-review.md), and [monthly report brief](skills/monthly-report-brief.md).
 - **Obsidian templates** — a [vault structure](obsidian-template/vault-structure.md) and a [client file template](obsidian-template/templates/client-file.md) for your private layer.
 
+## Your privacy, your choice
+
+The private layer is flexible — you choose how much privacy you need:
+
+- **100% local** — if you work from one machine, your vault stays entirely on your device. Nothing leaves your computer. No sync, no cloud, complete privacy. Recommended for small business owners who want the simplest, most private setup.
+- **Drive-synced** — if you work across multiple devices, sync your vault via Google Drive, iCloud, or Obsidian Sync. Your data stays in your own storage — it is never fed into an AI training pipeline or shared with any third party. Recommended for practitioners who need access across machines.
+- **Repo only** — if you are not ready to set up a vault yet, the repo works without one. Claude has access to the knowledge layer and skills but not your private context. You get less personalised output but zero setup friction.
+
+Your client data is never in this repo. The repo contains only universal knowledge — best practices, skills, and templates. Everything specific to your business stays local.
+
 ## How to get started
 
 1. **Clone the repo** — `git clone https://github.com/robotsandbrains/os.git`
@@ -37,6 +47,10 @@ PRs welcome. We work outline-first: propose the structure of a file before writi
 - **Stable:** nothing yet — this is v0.1.
 - **Draft:** core Google Ads knowledge, contexts, and the first three skills.
 - **Coming:** more skills, audit frameworks, and Meta Ads in v2.
+
+## For small business owners
+
+This repo is not just for paid media professionals. If you are a small business owner running your own Google Ads, there is a section built for you at [`small-business/`](small-business/). It covers setting up your first campaign, reading your results, and knowing when you need professional help.
 
 ## Licence
 
