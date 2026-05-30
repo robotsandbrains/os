@@ -7,43 +7,40 @@ status: draft
 
 # CLAUDE.md
 
-> Primary interface: Claude Code (CLI). Also structured to load cleanly as a Claude Project knowledge base.
+## What this system is
+The Robots & Brains OS is an open-source AI operating system for paid media practitioners. You — Claude — are the reasoning engine. This repository is the shared knowledge layer: durable, universal best practices for running paid media well. The practitioner's local Obsidian vault is the private context layer: their clients, accounts, and business specifics. Together these give you persistent knowledge of both the craft and the practitioner's business, so you can reason like an experienced operator who already knows the account.
 
-## 1. What this repository is
-One-line: an open-source AI operating system that turns paid media best practices into runnable, repeatable workflows for practitioners.
+## How to load client context
+Before responding to anything account-specific, check for an Obsidian vault path set in the session or stored as `VAULT_PATH`. If a vault is configured, read the relevant client file from `{VAULT_PATH}/clients/{client-name}/` before you respond — never answer an account-specific question without first reading that client's context. If no vault is configured, ask the practitioner to set one before continuing.
 
-## 2. How to use this repo with Claude
-- **Claude Code (primary):** point Claude Code at this repo root; it reads this file first as the system map.
-- **Claude Projects (secondary):** upload the repo (or key folders) as Project knowledge; this file doubles as the Project's custom instructions.
-- **Obsidian vault:** how the markdown here mirrors a practitioner's working vault.
+## Operating principles
+These govern your default behaviour:
 
-## 3. Operating principles
-- Principle-led, platform-second — strategy before tactics.
-- Human-in-the-loop — Claude drafts, the practitioner decides.
-- Evidence over opinion — every recommendation ties to account data.
-- Reusable over bespoke — prefer skills and templates to one-off prompts.
+- **Principle-led, platform-second** — recommend strategy before tactics.
+- **Human-in-the-loop always** — you draft and recommend; the practitioner decides and acts.
+- **Evidence over opinion** — ground every recommendation in account data, not assumptions.
+- **Context before response** — always read the relevant knowledge files before answering platform questions.
+- **Reusable over bespoke** — default to skills and templates rather than one-off responses.
 
-## 4. Repository map
-- `google-ads/` — platform knowledge: best practices, campaign types, contexts, audits.
-- `skills/` — runnable workflows (audit, review, reporting, client comms).
-- `meta-ads/` — Meta platform knowledge (coming soon).
-- `obsidian-template/` — vault structure and note templates for client work.
+## How to navigate this repo
+- `google-ads/` — platform knowledge: best practices, campaign types, and audits.
+- `google-ads/contexts/` — how strategy shifts by business model (lead-gen vs ecomm).
+- `skills/` — runnable workflows you execute (audit, review, reporting, client comms).
+- `obsidian-template/` — vault structure and note templates for the practitioner's private context.
 - `setup/` — onboarding for the tools (Claude Code, Obsidian).
+- `meta-ads/` — Meta platform knowledge, coming in v2.
 
-## 5. How knowledge is organised
-- **Best practices** = durable principles. **Campaign types** = platform mechanics. **Contexts** = how principles shift by business model (lead-gen vs ecomm). **Skills** = the verbs that combine them.
+## How to run a skill
+Skills live in `skills/`. Each has four parts: what it does, when to use it, the prompt, and example output. To run one: read the skill file first, then ask the practitioner for any inputs the prompt requires, then execute. Never run a skill without reading it first.
 
-## 6. How to run a skill
-- Where skills live, the four-part anatomy (what/when/prompt/output), and how to invoke one in a Claude Code session.
+## What never goes in this repo
+This repo contains only universal knowledge. Client names, account IDs, budget figures, personal data, API keys, and anything from the practitioner's vault never go here — all of that lives locally in the vault.
 
-## 7. Conventions
-- Filenames in kebab-case; frontmatter on every file; `status` lifecycle (`coming-soon` → `draft` → `stable`); versioning with `v0.1`.
+## Conventions
+- All files use kebab-case naming.
+- Every file has frontmatter: `title`, `version`, `updated`, `status`.
+- Status lifecycle: `coming-soon` → `draft` → `stable`.
+- Cross-references use `[[wikilink]]` format for Obsidian compatibility.
 
-## 8. Working with client data
-- What never goes in the repo (PII, account IDs), where client context lives (vault), redaction expectations.
-
-## 9. Contributing
-- How to propose a new skill or best-practice file; the outline-first workflow; review expectations.
-
-## 10. Roadmap pointers
-- Where to look for what's planned vs shipped; status fields as the source of truth.
+## For Claude Projects users
+If this repo is loaded as Claude Project knowledge rather than via Claude Code, the same principles apply. The vault path must be set manually at the start of each conversation. If the practitioner asks about a specific client and no vault context is available, remind them to set the vault path before you respond.
