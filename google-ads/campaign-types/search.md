@@ -7,9 +7,9 @@ status: draft
 
 # Search Campaigns
 
-## What Search campaigns are in 2025-2026
+## What Search campaigns are in 2026
 
-Search is still the account's demand-capture core — it puts you in front of people actively searching for what you sell, at the moment of intent. But the campaign type a practitioner manages in 2025-2026 bears little resemblance to the 2018 version, and managing it with 2018 instincts is the single most common reason accounts underperform.
+Search is still the account's demand-capture core — it puts you in front of people actively searching for what you sell, at the moment of intent. But the campaign type a practitioner manages in 2026 bears little resemblance to the 2018 version, and managing it with 2018 instincts is the single most common reason accounts underperform.
 
 The two changes that rewrote everything are **broad match** and **Smart Bidding**, and they only make sense together. In the old world, the keyword *was* the targeting: you bid on a keyword, you appeared for that keyword, you controlled the mapping query-to-bid by hand. In the modern world, **the keyword is a signal, not a target.** Broad match keywords tell the system the *kind* of intent you want; Smart Bidding then decides, auction by auction, which actual queries are worth bidding on and how much — using signals you can't see (see [[smart-bidding]]). You are no longer selecting queries. You are describing intent and supplying conversion data, and the system selects queries.
 
@@ -26,7 +26,7 @@ Practitioners who fight this — over-segmenting, hoarding exact match, manual-b
 Forget Google's definitions; here's the observed behaviour today.
 
 - **Broad match** no longer means "any loosely related query." With Smart Bidding feeding it, broad uses the keyword plus user signals, query intent, landing pages, and account history to find converting queries you'd never have thought to add — and it's genuinely good at it *when the conversion data is clean and volume is sufficient*. Without Smart Bidding, broad is exactly the indiscriminate spend-everywhere disaster its reputation says. **Broad's behaviour is entirely contingent on the bidding strategy behind it.** Broad + tCPA/tROAS = a scaling engine. Broad + manual = avoid.
-- **Phrase match** is the pragmatic middle and still very much alive in 2025. It honours meaning and sequence while allowing variation, giving you broad-like reach with more intent guardrails. **The case for phrase:** it's the default when you want Smart Bidding's query-finding but can't yet fully trust broad — newer accounts, thinner conversion data, higher-risk/high-CPA verticals, or where query control matters. Many accounts run a phrase-led core and test broad on top.
+- **Phrase match** is the pragmatic middle and still very much alive in 2026. It honours meaning and sequence while allowing variation, giving you broad-like reach with more intent guardrails. **The case for phrase:** it's the default when you want Smart Bidding's query-finding but can't yet fully trust broad — newer accounts, thinner conversion data, higher-risk/high-CPA verticals, or where query control matters. Many accounts run a phrase-led core and test broad on top.
 - **Exact match** still matches close variants (same meaning), so even "exact" isn't literal. It's worth the coverage trade-off for your **highest-intent, must-control terms** — brand, top converting commercial queries, terms where you want tight messaging and to guarantee Search wins over PMax (see the hierarchy below). You give up reach; you buy control and predictability.
 
 The throughline: **match type strategy is now inseparable from bidding strategy.** You cannot choose a match type in isolation — broad assumes Smart Bidding and data density; exact assumes you want control over reach. Decide them together, not in separate meetings.

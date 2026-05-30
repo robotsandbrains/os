@@ -7,7 +7,7 @@ status: draft
 
 # Audience Strategy
 
-## How audiences work in Google Ads in 2025
+## How audiences work in Google Ads in 2026
 
 Forget the feature list. The underlying reality is this: in a Smart Bidding account, audiences are mostly **bid signals, not targeting gates.** They tell the model *who is more likely to convert and how much they're worth*, and the model factors that into the auction-time bid alongside the dozens of other signals it reads (see [[smart-bidding]]). They are an *input to the algorithm*, not a fence around your traffic — and conflating those two things is the single most expensive audience misunderstanding in the platform.
 
@@ -17,7 +17,7 @@ The distinction that governs everything:
 
 The model uses audience-membership data as one more probabilistic signal: membership in a high-converting list raises the predicted value of an auction, the bid rises, and you win more of the *right* impressions without locking out everyone else. That's the mechanism — probabilistic bidding, not binary gating.
 
-Why practitioners get this wrong: they bring a pre-automation instinct that audiences are *targeting* — "I'll add my in-market and remarketing audiences to narrow this to good people." In a Smart Bidding world that instinct **over-restricts**: it converts a rich signal the model could have used to bid intelligently across the whole auction into a wall that starves the campaign of volume and, ironically, of the conversion data the model needs to learn. The default posture in 2025 is **feed signals, don't build walls** — give the model your best first-party and intent data as observation/signal, and let it bid, rather than pre-filtering the audience down yourself.
+Why practitioners get this wrong: they bring a pre-automation instinct that audiences are *targeting* — "I'll add my in-market and remarketing audiences to narrow this to good people." In a Smart Bidding world that instinct **over-restricts**: it converts a rich signal the model could have used to bid intelligently across the whole auction into a wall that starves the campaign of volume and, ironically, of the conversion data the model needs to learn. The default posture in 2026 is **feed signals, don't build walls** — give the model your best first-party and intent data as observation/signal, and let it bid, rather than pre-filtering the audience down yourself.
 
 ## Observation vs targeting
 
