@@ -16,6 +16,7 @@ It's free, open source, and maintained by practitioners for practitioners. Your 
 - **Business contexts** — how strategy shifts for [lead gen](google-ads/contexts/lead-gen.md) vs [ecommerce](google-ads/contexts/ecomm.md).
 - **Skills** — runnable workflows like [account audit](skills/account-audit.md), [campaign review](skills/campaign-review.md), and [monthly report brief](skills/monthly-report-brief.md).
 - **Obsidian templates** — a [vault structure](obsidian-template/vault-structure.md) and a [client file template](obsidian-template/templates/client-file.md) for your private layer.
+- **Tools** — reference guides for utilities that work alongside the OS, starting with [Markitdown](tools/markitdown.md) for converting PDFs and documents into context-efficient markdown.
 
 ## Your privacy, your choice
 
