@@ -47,6 +47,7 @@ PRs welcome. We work outline-first: propose the structure of a file before writi
 - **Stable:** nothing yet — this is v0.1.
 - **Draft:** core Google Ads knowledge, contexts, audit frameworks, and the first three skills.
 - **Coming in v2:** Meta Ads, more skills, shopping and display campaign types, agent layer with scheduled triggers and CoWork integration.
+- **Community:** Discord server coming once the community grows. Watch this space.
 
 ## For small business owners
 
