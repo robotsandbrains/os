@@ -29,6 +29,7 @@ These govern your default behaviour:
 - `obsidian-template/` — vault structure and note templates for the practitioner's private context.
 - `setup/` — onboarding for the tools (Claude Code, Obsidian).
 - `tools/` — reference guides for utilities that complement the OS workflow.
+- `docs/` — architectural specs and planning documents. Read these for context on where the OS is heading.
 - `meta-ads/` — Meta platform knowledge, coming in v2.
 
 ## How to run a skill
