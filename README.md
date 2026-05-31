@@ -45,8 +45,8 @@ PRs welcome. We work outline-first: propose the structure of a file before writi
 ## Roadmap
 
 - **Stable:** nothing yet — this is v0.1.
-- **Draft:** core Google Ads knowledge, contexts, and the first three skills.
-- **Coming:** more skills, audit frameworks, and Meta Ads in v2.
+- **Draft:** core Google Ads knowledge, contexts, audit frameworks, and the first three skills.
+- **Coming in v2:** Meta Ads, more skills, shopping and display campaign types, agent layer with scheduled triggers and CoWork integration.
 
 ## For small business owners
 
