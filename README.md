@@ -41,7 +41,7 @@ This repo is the open-source foundation that powers Robots & Brains, a paid medi
 
 ## Contributing
 
-PRs welcome. We work outline-first: propose the structure of a file before writing the full content, so the shape gets agreed before the words. See [CLAUDE.md](CLAUDE.md) for conventions.
+PRs welcome. We work outline-first: propose the structure of a file before writing the full content, so the shape gets agreed before the words. See [CONTRIBUTING.md](CONTRIBUTING.md) for conventions.
 
 ## Roadmap
 
