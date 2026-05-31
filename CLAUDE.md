@@ -32,7 +32,7 @@ These govern your default behaviour:
 - `meta-ads/` — Meta platform knowledge, coming in v2.
 
 ## How to run a skill
-Before running any skill, read `skills/overview.md` first — it lists all available skills with one-line descriptions so you can identify the right one without loading all skill files into context. Skills live in `skills/`. Each has four parts: what it does, when to use it, the prompt, and example output. To run one: read the skill file first, then ask the practitioner for any inputs the prompt requires, then execute. Never run a skill without reading it first. When a skill is producing poor output, check whether it is over-instructing or over-feeding — see `contributing.md` for the two-slider principle.
+Before running any skill, read `skills/overview.md` first — it lists all available skills with one-line descriptions so you can identify the right one without loading all skill files into context. Skills live in `skills/`. Each has four parts: what it does, when to use it, the prompt, and example output. To run one: read the skill file first, then ask the practitioner for any inputs the prompt requires, then execute. Never run a skill without reading it first. When a skill is producing poor output, check whether it is over-instructing or over-feeding — see `CONTRIBUTING.md` for the two-slider principle.
 
 ## What never goes in this repo
 This repo contains only universal knowledge. Client names, account IDs, budget figures, personal data, API keys, and anything from the practitioner's vault never go here — all of that lives locally in the vault.
