@@ -9,6 +9,22 @@ status: draft
 
 A running log of build sessions. Newest entries at the top. Concise by design — this tracks decisions and direction, not a full project map (see [README.md](../README.md) and [CLAUDE.md](../CLAUDE.md) for that).
 
+## 2026-06-02
+
+**What was built**
+- `tools/token-counter.md` — reference guide and script for measuring a document's true token cost (PDF text + per-page image tokens) vs its markdown conversion, via Anthropic's free `count_tokens` endpoint. Companion to the Markitdown guide; wired into the README tools list.
+- Markitdown LinkedIn post finalised and grounded with a real measurement: Google's Demand Gen implementation guide costs 31,278 tokens as a PDF vs 2,718 as markdown — an 11.5× token reduction (446× by bytes). Post lives in the practitioner's vault, not this repo.
+
+**Notes**
+- The 2026-05-31 "what's next" list is now mostly done: the four `small-business/` files and the `meeting-notes` / `account-context` Obsidian templates all exist.
+
+**What's next**
+- Collectors skill (Client Context Collector).
+- Discord — week two.
+- v2 automation layer (Tier 2 build).
+
+**Repo state:** latest commit on `main` at time of writing — `b25dd1d`.
+
 ## 2026-05-31
 
 **What was built**
